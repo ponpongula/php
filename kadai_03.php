@@ -11,7 +11,7 @@ if($name == "hayato"){
 $total = 0;
 echo $total;
 
-for ($i = 0; $i <= 1000; $i++) {
+for ($i = 0; $i <= 10000; $i++) {
   $total += $i;
 }
 echo $total;
@@ -26,7 +26,7 @@ foreach($fruits as $fruits){
 
 $start = 1;
 $end = 100;
-for($i = $start; $i < $end; $i++){
+for($i = $start; $i <= $end; $i++){
   if($i % 5 == 0){
     echo $i;
     echo "\n";
